@@ -1,0 +1,39 @@
+4) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
+
+1. Nomearia as salas como A, B e C.
+2. Nomearia os interruptores como I, II e III.
+3. Desligo todos os interruptores para me certificar de que todos se encontram no mesmo estado.
+4. Ligaria os interruptores I e II.
+5. Iria até a sala A. (Ida 1).
+
+PRIMEIRA POSSIBILIDADE: SALA A ACESA E B ACESA:
+6.a. Se estiver acesa, volto e apago o interruptor I.
+6.b. Vou até a sala B. (Ida 2).
+6.c. Se a sala B estiver acesa, logo:
+- Os interruptores I e II correspondem às salas A e B pois ambas estavam acesas.
+6.d. O interruptor I corresponde a sala A, pois a sala B não se apagou com o interruptor I sendo apagado.
+6.e. O interruptor II corresponde a sala B pois a sala estará acesa e o II é o único que permanece aceso.
+6.f. Por eliminação, o interruptor III corresponde à sala C.
+
+SEGUNDA POSSIBILIDADE: SALA A APAGADA E B APAGADA:
+6.a. Se estiver apagada, volto e apago o interruptor I.
+- Os interruptores I e II correspondem às salas B e C.
+6.b. Vou até a sala B. (Ida 2).
+6.c. Se a sala B estiver apagada, logo:
+6.d. O interruptor I corresponde à sala B, pois a mesma se apagou e sabemos que antes de apagar o interruptor I duas salas estavam acesas e só poderiam ser as salas B e C.
+6.e. O interruptor II corresponde à sala C, pois ele permanece aceso e sabemos que a sala acesa é a sala C.
+6.f. Por eliminação, o interruptor III corresponde à sala A.
+
+TERCEIRA POSSIBILIDADE SALA A APAGADA E B ACESA:
+6.a. Se estiver apagada, volto e apago o interruptor I.
+- Os interruptores I e II correspondem às salas B e C.
+6.b. Vou até a sala B. (Ida 2).
+6.c. Se a sala B estiver acesa, logo:
+6.d. O interruptor II corresponde à sala B, pois a mesma permanece acesa, e o único interruptor aceso é o II.
+6.e. O interruptor I corresponde à sala C. 
+6.f. Por eliminação, o interruptor III corresponde à sala A.
+
+QUARTA POSSIBILIDADE SALA A ACESA E B APAGADA:
+6.a. Se estiver acesa, volto e apago o interruptor I.
+6.b. Vou até a sala B. (Ida 2).
+6.c. Se a sala B estiver apagada, temos um impasse, pois as salas B ou C poderiam estar apagadas antes. Então seria necessário tocar a lâmpada da sala B para saber se ela está quente. Caso esteja, então o interruptor I corresponde à sala B. Como a sala A estava acesa antes, então corresponde ao interruptor II e por eliminação o interruptor III corresponde à sala C.
